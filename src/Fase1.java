@@ -7,10 +7,10 @@ public class Fase1 {
 		//Fes un bucle que recorri aquesta taula i mostri per consola cadascuna de les lletres.
 		
 
-		String nom[] = {"J","O","R","D","I"};
+		char nom[] = {'J','O','R','D','I'};
 		
 		
-		for (String imprimir:nom) {
+		for (char imprimir:nom) {
 			System.out.println(imprimir);
 			
 		}
